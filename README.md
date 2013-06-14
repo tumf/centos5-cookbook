@@ -1,12 +1,13 @@
 centos5 Cookbook
 ================
 
-CentOS5専用のレシピ
+CentOS5専用のクックブック
 
 Requirements
 ------------
 
-CentOS5用
+* CentOS5.x
+
 
 Attributes
 ----------
@@ -44,6 +45,12 @@ Attributes
     <td><tt>no</tt></td>
   </tr>
 </table>
+
+Install
+-------
+
+    echo "cookbook 'centos5', github: 'tumf/centos5-cookbook'" >> Berksfile
+    berks berks install --path cookbooks
 
 Usage
 -----
