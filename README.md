@@ -43,7 +43,36 @@ Attributes
     <td>IPVt6ネットワーク有効</td>
     <td><tt>no</tt></td>
   </tr>
+  <tr>
+    <td><tt>['network-settings']['gateway']</tt></td>
+    <td>String</td>
+    <td>デフォルトゲートウェイ</td>
+    <td><tt>(設定しない)</tt></td>
+  </tr>
 </table>
+
+### centos5::stop-services
+
+<table>
+  <tr>
+    <th>Key</th>
+    <th>Type</th>
+    <th>Description</th>
+    <th>Default</th>
+  </tr>
+  <tr>
+    <td><tt>['stop-services']</tt></td>
+    <td>String</td>
+    <td>停止するサービスのリスト</td>
+    <td><tt>acpid auditd autofs avahi-daemon avahi-dnsconfd
+bluetooth conman cpuspeed cups dnsmasq dund gpm hidd
+ip6tables irda lvm2-monitor mcstrans mdmonitor multipathd
+pand pcscd psacct rawdevices readahead_early readahead_later
+restorecond saslauthd smartd wpa_supplicant ypbind yum-updatesd</tt></td>
+  </tr>
+</table>
+
+
 
 Install
 -------
