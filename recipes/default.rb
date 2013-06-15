@@ -6,5 +6,5 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-include_recipe "centos5::network-settings"
+# include_recipe "centos5::network-settings"
 

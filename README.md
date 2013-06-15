@@ -14,10 +14,9 @@ Attributes
 
 #### centos5::default
 
-`centos5::network-settings`の別名
+何もしない
 
 ### centos5::network-settings
-
 
 <table>
   <tr>
