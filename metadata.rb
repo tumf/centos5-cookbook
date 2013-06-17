@@ -1,6 +1,6 @@
 name             'centos5'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Yoshihiro TAKAHARA'
+maintainer_email 'y.takahara@gmail.com'
 license          'All rights reserved'
 description      'Installs/Configures centos5'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
