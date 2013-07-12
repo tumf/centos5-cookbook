@@ -53,6 +53,8 @@ Attributes
 
 ### centos5::stop-services
 
+> [Qiita:CentOSの要らないサービスを無効にするレシピ](http://qiita.com/items/bb90e266016e0dc85c4e)
+
 <table>
   <tr>
     <th>Key</th>
